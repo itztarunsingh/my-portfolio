@@ -23,8 +23,7 @@ export default function Section1() {
             <br />
             <div className="about-lines">
               <p2>
-                Code Enthusiast || C/C++ || Python || MySQL || content Writing
-                ✍️ || Web Developer <br />
+                Code Enthusiast || C/C++ || Python || MySQL || Web Designing || Web Developer <br />
               </p2>
               <p3>
                 <br />
