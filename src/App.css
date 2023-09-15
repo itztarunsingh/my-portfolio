@@ -243,6 +243,11 @@ html {
   justify-items: center;
 }
 
+.cerifi_1 :hover{
+  transition: transform #1b272d 3s ease;
+  transform: scale(1.1);
+}
+
 .cerifi_1 img{
   margin-right: 10px;
   height: 150px;
