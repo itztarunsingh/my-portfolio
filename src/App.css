@@ -60,6 +60,11 @@ html {
   margin: 5px;
 }
 
+.home a, .abouthead a, .certificates a, .find-me a :hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
 .section_1 {
   font-family: 'Poppins';
   display:inline-block;
