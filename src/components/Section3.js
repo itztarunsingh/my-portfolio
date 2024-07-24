@@ -14,10 +14,10 @@ export default function Section3() {
     window.open("https://drive.google.com/file/d/1eqa056qkfPwhk3gg-HrJ0tSVY75dVM1H/view?usp=sharing",'_blank');
   }
   function python () {
-    window.open("https://www.linkedin.com/posts/itztarunsingh_1000-free-courses-with-free-certificates-activity-7024773000365256704-P5BZ?utm_source=share&utm_medium=member_desktop", '_blank');
+    window.open("https://www.linkedin.com/posts/dev-tarunsingh_1000-free-courses-with-free-certificates-activity-7024773000365256704-P5BZ?utm_source=share&utm_medium=member_desktop", '_blank');
   }
   function cpp () {
-    window.open("https://www.linkedin.com/posts/itztarunsingh_1000-free-courses-with-free-certificates-activity-7081905746451271680-8CZ8?utm_source=share&utm_medium=member_desktop",'_blank');
+    window.open("https://www.linkedin.com/posts/dev-tarunsingh_1000-free-courses-with-free-certificates-activity-7081905746451271680-8CZ8?utm_source=share&utm_medium=member_desktop",'_blank');
   }
   return (
     <section className="section_3" id="certificates">
