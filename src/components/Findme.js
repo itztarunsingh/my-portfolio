@@ -2,11 +2,11 @@ import React from "react";
 
 export default function Header() {
   function github() {
-    window.open("https://github.com/itztarunsingh", '_blank');
+    window.open("https://github.com/dev-TarunSingh", '_blank');
   }
 
   function linkedin() {
-    window.open("https://www.linkedin.com/in/itztarunsingh/", '_blank');
+    window.open("https://www.linkedin.com/in/dev-tarunsingh/", '_blank');
   }
 
   function mail() {
