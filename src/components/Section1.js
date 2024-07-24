@@ -4,7 +4,7 @@ import pic from "./mypic.jpg";
 export default function Section1() {
   function dwnldcv() {
     window.location.href =
-      "https://drive.google.com/file/d/1d5DShxlFH8xO51Q2AR9tky24RmStW4qN/view?usp=drive_link";
+      "https://drive.google.com/file/d/12Zn5qad1kk5sytHnFJF3OXQ7fvX-RaPn/view?usp=drive_link";
   }
   return (
     <section className="section_1" id="Home">
