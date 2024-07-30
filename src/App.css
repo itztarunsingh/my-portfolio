@@ -1,285 +1,49 @@
-@media (max-width: 600px) {
-  .flex-box {
-    flex-direction: column;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kalam:wght@300;400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+BE+WAL:wght@100..400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Zain:wght@200;300;400;700;800;900&display=swap');
 
-  .qualf {
-    flex-direction: column;
-  }
-
-  .cerifi_1 img{
-    height: 100px;
-    width: 200px;
-  }
-
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-@import "~@flaticon/flaticon-uicons/css/all/all";
-
-.App {
-  font-family: 'Poppins';
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-.flex-box {
-  display: flex;
-}
-
-.header-content {
-  display: flex;
-  justify-content: center;
-  backdrop-filter: blur(10px);
-  color: #fff;
-  align-items: center;
-  border-radius: 10px;
-  position: sticky;
-  top: 0;
-  border-bottom: 1px solid #1b272d;
-}
-
-.home a, .abouthead a, .certificates a, .find-me a{
-  display: flex;
-  background-color: #63a3ad;
-  text-align: center;
-  align-items: center;
-  margin: 8px;
-  padding: 8px;
-  border-radius: 20px;
-  text-decoration: none;
-  margin-right: 10px;
-  color: white;
-  flex-wrap: wrap;
-}
-
-.home i, .abouthead i, .certificates i, .find-me i, .data i{
-  justify-content: center;
-  margin: 5px;
-}
-
-.home a, .abouthead a, .certificates a, .find-me a :hover {
-    transform: scale(1.1);
-    transition: 0.5s;
-}
-
-.section_1 {
-  font-family: 'Poppins';
-  display:inline-block;
-  background-image: linear-gradient(to bottom right, #63a3ad, #1b272d);
-}
-
-.myimage img {
-  height: 250px;
-  width: 250px;
-  border-radius: 50%;
-}
-
-.imagearea {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  flex-direction: column;
-}
-
-.about {
-  display: flex;
-  padding: 10px;
-  flex-direction: column;
-  justify-content: center;
-  margin: 20px;
+body {
+  font-family: 'zain';
+  margin: 0;
+  padding: 0;
+  background-color: black;
   color: white;
 }
 
-.name h1 {
-  font-size: 70px;
-  margin: 0%;
-  color: white;
-  text-shadow: 2px 2px 4px #000000;
-}
-
-.download {
-  display: flex;
-  justify-content: center;
-}
-.section_2 {
-  font-family: 'Poppins';
-  background-color: #e0f6f7;
-  width: 100%;
+.Nav {
+  background-color: #F33A3A;
+  border-radius: 50px;
+  height: auto;
   display: flex;
   flex-direction: column;
-}
-
-.head {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-.data {
-  display: flex;
-  padding: 10px;
   justify-content: space-around;
-  flex-direction: row;
+  align-items: center;
   margin: 20px;
-  flex-wrap: wrap;
+  height: 400px;
+  padding: 0 10px;
+  position: absolute;
+  right: 20px;
+  img:active {
+    transform: scale(0.9);
+  }
+
 }
 
-.skill-head, .lang-box {
-  display: flex;
-  justify-content: center;
-  justify-items: center;
+.Nav:hover {
+  height: 700px;
+  transition: ease-in-out 0.5s;
+
 }
 
-.skills, .box {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 20px;
-  justify-content: center;
-}
 
-.button, .view {
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #63a3ad;
-  color: white;
-  border: none;
-  border-radius: 25px;
-  cursor: pointer;
-  margin: 15px;
-}
+@media screen and (max-width: 768px) {
+  .Nav {
+    bottom: 20px;
+    width: 80%;
+    height: auto;
+    flex-direction: row;
+  }
 
-.button:hover , .view:hover{
-  background-color: #5b96a0;
-  transition: transform #1b272d 3s ease;
-  transform: scale(1.1);
-}
-
-.button i , .view i{
-  margin: 5px;
-}
-
-.qual-head {
-  display: flex;
-  justify-content: center;
-}
-
-.qualf {
-  display: flex;
-  justify-content: center;
-}
-
-.high-school, .school, .graduation {
-  display: flex;
-  color: white;
-  border-radius: 25px;
-  margin: 10px;
-  background-image: linear-gradient(to bottom right, #63a3ad, #1b272d);
+  .Nav:hover {
+    height: 50px;
+  }
   
-}
-
-.high-school p2, .school p2, .graduation p2 {
-  justify-content: center;
-}
-.school {
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.high-school {
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.graduation {
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.section_3 {
-  font-family: 'Poppins';
-  background-color: white;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-.cont_head {
-  display: flex;
-  justify-content: center;
-  justify-items: center;
-}
-
-.allcertificates {
-  display: flex;
-  flex-direction: ROW;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.cerifi_1 {
-  border: 5px solid black;
-  margin: 10px;
-  padding: 10px;
-  border-radius: 20px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  justify-items: center;
-}
-
-.cerifi_1 :hover{
-  transition: transform #1b272d 3s ease;
-  transform: scale(1.1);
-}
-
-.cerifi_1 img{
-  margin-right: 10px;
-  height: 150px;
-  width: 250px;
-  border-radius: 20px;
-}
-
-.details {
-  display: flex;
-  text-align: center;
-  flex-wrap: wrap;
-  justify-items: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-.details p1 {
-  margin: 10px;
-}
-
-.findme {
-  font-family: 'Poppins';
-  background-color: rgb(60, 57, 57);
-  width: 100%;
-  color: white;
-  display: flex;
-  flex-direction: column;
-}
-
-.all-links {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  flex-direction: row;
 }

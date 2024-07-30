@@ -1,0 +1,58 @@
+.About-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    left: 0;
+    height: 100vh;
+    margin: 10px auto;
+}
+
+.about {
+    background-color: #F33A3A;
+    padding: 10px;
+    border-radius: 16px;
+    box-shadow: black 0px 0px 10px;
+}
+
+h1 {
+    color: #F33A3A;
+    font-size: 4rem;
+    text-align: center;
+}
+
+p1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.skills-list {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    margin: 5px;
+    padding: 10px;
+    width: 100%;
+}
+
+.skills-list :hover {
+    background-color: white;
+    color: black;
+    border-radius: 16px;
+}
+
+.skill-item {
+    margin: 5px;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
